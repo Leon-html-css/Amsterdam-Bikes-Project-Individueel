@@ -1,0 +1,82 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: avenir-black;
+}
+
+@font-face {
+    font-family: avenir-black;
+    src: url("./dump/avenir-black.ttf");
+}
+
+header img.terugknop{
+    display: block;
+    block-size: 50px;
+    padding-top: 25px;
+    padding-left: 2px;
+    padding-right: 0px;
+    border-right: 50%;
+}
+
+header img.homeknop{
+
+    display: block;
+    block-size: 70px;
+}
+
+header h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    block-size: 100%;
+    background-color: red;
+    color: black;
+    border-right: 0;
+    margin-top: 0px;
+    padding: 0px;
+    height: 2cm;
+}
+
+body{
+    background: white;
+    color: black;
+}
+
+ul{
+    position: relative;
+}
+
+ul li{
+    display: table;
+    align-content: unset;
+    width: 300px;
+    height: 100px;
+    margin: 35px;
+    padding: 10px;
+    max-width: 100%;
+    background: black;
+    color: white;
+    text-align: left;
+    list-style: none;
+}
+
+ul li h5:link{
+    padding: 10px;
+}
+
+ul li img{
+    display: flex;
+    justify-content: right;
+}
+
+body h3.Info{
+    display: flex;
+    border: solid black;
+    justify-content: center;
+    margin-top: 10px;
+}
